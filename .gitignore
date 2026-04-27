@@ -3,7 +3,10 @@ data/
 !data/.gitkeep
 
 # Checkpoints & run outputs
-runs/
+runs/*
+!runs/20260306_060218/
+!runs/20260306_060218/*.png
+!runs/20260306_060218/*.csv
 *.log
 
 # Python
